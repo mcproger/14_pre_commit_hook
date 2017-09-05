@@ -1,6 +1,6 @@
 from math import sqrt
 
-
+#test
 def get_roots(a, b, c):
     discriminant = b ** 2 - 4 * a * c
     root1 = (-b - sqrt(discriminant)) / (2 * a)
@@ -11,3 +11,4 @@ def get_roots(a, b, c):
         return root1, None
     else:
         return root1, root2
+
