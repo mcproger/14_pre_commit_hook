@@ -6,7 +6,7 @@ A small script that works through githooks and can interrupt commit changes befo
 # Using 
 
 For using this feature you should make few actions:
-  * Copy `pre-commit` into file `.git/hooks` directory;
+  * Copy `pre-commit` file into `.git/hooks` directory;
   * Make this script executable - ` $ chmod + x .git/hooks/pre-commit`.
   
 After that, if you try to commit some changes with broken tests, the pre-commit hook will cancel it and show an error message.
